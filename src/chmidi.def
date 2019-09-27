@@ -1,0 +1,26 @@
+LIBRARY     CHMIDI.DLL
+
+EXPORTS
+    ChMidiGetLastError
+    ChMidiInit
+    ChMidiPlay
+    ChMidiStop
+    ChMidiFadeOut
+    ChMidiSetReport
+    ChMidiCreateData
+    ChMidiDeleteData
+    ChMidiDeleteAllData
+    ChMidiNoteOn
+    ChMidiNoteOff
+    ChMidiControlChange
+    ChMidiProgramChange
+    ChMidiChannelPressure
+    ChMidiPitchBend
+    ChMidiMidiReset
+    ChMidiSetGSReverb
+    ChMidiSetGSChorus
+    ChMidiSetGSDelay
+    ChMidiGetDataInfo
+    ChMidiGetDeltaTime
+    ChMidiGetMusicTempo
+    ChMidiGetChannelData
